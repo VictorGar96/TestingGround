@@ -40,5 +40,5 @@ EBTNodeResult::Type UChooseNextWayPoint::ExecuteTask(UBehaviorTreeComponent& Own
 
     UE_LOG(LogTemp, Warning, TEXT("Waypoint Index: %i"), Index);
     
-    return EBTNodeResult::Failed;
+    return EBTNodeResult::Succeeded;
 }
