@@ -67,6 +67,8 @@ private:
 
     AGun* Gun;
 
+    //UInputComponent* InputComponent;
+
 protected:
 	
 	/** Resets HMD orientation and position in VR. */
